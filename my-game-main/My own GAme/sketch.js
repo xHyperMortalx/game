@@ -6,6 +6,7 @@ var egg2, egg2Img;
 var egg3, egg3Img;
 var egg4, egg4Img;
 var bg
+var hole, HoleImg
 
 var gameState, PLAY, END;
 
@@ -18,6 +19,7 @@ function preload(){
   egg2Img = loadImage("egg2.png")
   egg3Img = loadImage("egg3.png")
   egg4Img = loadImage("egg4.png")
+  HoleImg = loadImage("unnamed.png")
 }
 
 function setup() {
